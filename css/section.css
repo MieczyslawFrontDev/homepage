@@ -1,0 +1,30 @@
+.section__title {
+    color: teal;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.section__myPhoto {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 16px -13px 15px 1px rgba(70, 17, 17, 0.459);
+}
+.visible {
+    display: none;
+}
+.section__deletePhotoButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-style: italic;
+    border: 2px solid teal;
+    border-radius: 20px;
+    color: teal;
+    background-color: white;
+}
+.section__deletePhotoButton:hover {
+    background-color: teal;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.footer {
+    background-color: teal;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.footer__link:hover {
+    color: blue;
+}

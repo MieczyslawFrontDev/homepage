@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja pierwsza strona</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/article.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/table.css">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="body body--dark js-body js-body--dark">
+  <header class="header">
+    <h1 class="header__title">HELLO WORLD !</h1>
+    <button class="header__backgroundButton js-header__backgroundButton">Włącz <span
+        class="header__themeName js-header__themeName">ciemne</span> tło</button>
+  </header>
+
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item"><a class="navigation__link" href="#about-me">O MNIE</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#table">TABELA</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#contact">KONTAKT</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="section">
+      <h2 class="section__title">Mieczysław Przytuła</h2>
+      <p>
+        <img class="section__myPhoto js-section__myPhoto"
+          src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/255437725_430400288500440_1882678821854535301_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=D4fL2asmFI0AX_aUcaB&_nc_ht=scontent-waw1-1.xx&oh=e1f6a7e6b40e65cdc50a314bd405cabc&oe=61B19B69"
+          alt="Moje zdjecie">
+      </p>
+      <button class="section__deletePhotoButton js-section__deletePhotoButton">Usuń
+        zdjęcie</button>
+    </section>
+    <article class="article">
+      <h2 class="article__title" id="about-me">O mnie :)</h2>
+
+      <p class="article__paragraph">
+        Mam na imię <strong>Mietek</strong> i chciałbym zostać programistą
+        <strong>JavaScript</strong>
+        :)
+      </p>
+      <p class="article__paragraph">
+        Miałem już styczność z programowaniem na Udemy, więc tematyka nie jest mi zupełnie obca.
+        Niestety, musiałem zrobić przerwę na ok. 1,5 roku, ponieważ pojawiły się ważniejsze priorytety.
+        Mam nadzieję, że nauczę się programować, a przygoda z JavaScript okaże się długa i fascynująca.
+        Chciałbym znaleźć pracę jako frontend developer, czerpać z niej przyjemność i satysfakcję.
+        Życzę każdemu z Was tego samego !
+      </p>
+
+      <p class="article__paragraph">
+        Moje zainterowania to <strong class="article__strong article__strong--hobbiesColor"><em>piłka nożna,
+            technologia, kino </em></strong>.
+      </p>
+    </article>
+    <article class="article">
+      <h2 class="article__title">Piłka nożna - moja pasja</h2>
+      <p class="article__paragraph">
+        Moja przygoda z piłką nożną trwa od dzieciństwa do teraz. Bardzo lubię ten sport, ponieważ jest zdrową formą
+        rywalizacji, która przysparza wiele pozytywnych emocji. Lata uprawiania tego sportu nauczyły mnie w
+        szczególności dyscypliny oraz współpracy w grupie. Miałem przyjemność pracować z wieloma trenerami, dzięki
+        którym mogłem rozwijać swoje umiejętności i zdobywać cenne doświadczenie. Sport ukształtował moją osobowość,
+        charakter i pozwolił rozwinąć wiele pozytywnych cech.
+      </p>
+
+
+    </article>
+      <div class="table__container">
+        <table class="table" id="table">
+
+          <caption class="table__caption">Moje kluby</caption>
+
+          <tr>
+            <th class="table__cell table__cell--header scope="col">Klub</th>
+            <th class="table__cell table__cell--header scope="col">Liga</th>
+            <th class="table__cell table__cell--header scope="col">Sukcesy</th>
+            <th class="table__cell table__cell--header scope="col">Lata</th>
+
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header scope="row" rowspan="2">MKS
+              Oława</th>
+            <td class="table__cell">Liga Dolnośląska Juniorów</td>
+            <td class="table__cell">Wicemistrzostwo LDJ</td>
+            <td class="table__cell">2004-2009</td>
+          </tr>
+          <tr>
+            <td class="table__cell">IV Liga</td>
+            <td class="table__cell">Brak</td>
+            <td class="table__cell">2009-2010</td>
+
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header scope="row" rowspan="2">
+              Foto-Higiena Gać</th>
+            <td class="table__cell" rowspan="2">III Liga</td>
+            <td class="table__cell">Awans do IV Ligi</td>
+            <td class="table__cell" rowspan="2">2010-2018</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Awans do III Ligi</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header scope="row">Orzeł Marszowice
+            </th>
+            <td class="table__cell">Klasa Okręgowa</td>
+            <td class="table__cell">Awans do Klasy "O"</td>
+            <td class="table__cell">2018-</td>
+          </tr>
+        </table>
+      </div>
+    <article class="article">
+      <p class="article__paragraph">Mam swojego <strong>idola</strong>, który jest dla mnie inspiracją i wzorem do
+        naśladowania.</p>
+      <img class="article__image js-article__image"
+        src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/12/08/12/ronaldo.jpg?width=990&auto=webp&quality=75"
+        alt="cr7">
+      <p class="article__paragraph">
+        <strong>Cristiano Ronaldo dos Santos Aveiro</strong> (ur. 5 lutego 1985
+        w Funchal) – portugalski piłkarz występujący na pozycji skrzydłowego lub środkowego napastnika w angielskim
+        klubie Manchester United oraz w reprezentacji Portugalii, której jest kapitanem. Złoty medalista Mistrzostw
+        Europy 2016, srebrny medalista Mistrzostw Europy 2004. Uczestnik Mistrzostw świata: 2006, 2010, 2014, 2018 i
+        Mistrzostw Europy: 2004, 2008, 2012, 2016, 2020.
+        <a class="article__linkToBiography" href="https://pl.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">Pełna
+          biografia</a>
+      </p>
+    </article>
+    <form action="https://postman-echo.com/post
+      " method="POST" class="form js-form" id="contact">
+      <h2 class="form__header">Formularz kontaktowy</h2>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Wypełnij formularz</legend>
+        <p class="form__paragraph">Pola wymagane oznaczone są gwiazdką*</p>
+        <p>
+          <label>
+            <span class="form__labelText">Imię*</span>
+            <input class="form__field" type="text" name="firstName" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="form__labelText">Nazwisko*</span>
+            <input class="form__field" type="text" name="lastName" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="form__labelText">Telefon*</span>
+            <input class="form__field" type="tel" name="phoneNumber" required>
+          </label>
+        <p>
+          <label>
+            <span class="form__labelText">E-mail*</span>
+            <input class="form__field" type="email" name="email" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="form__labelText">Dodatkowe informacje</span>
+            <textarea class="form__field form__field--description" name="description" maxlength="160"></textarea>
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="form__labelText">Data</span>
+            <input class="form__field form__field--date" type="date">
+          </label>
+        </p>
+      </fieldset>
+      <p><button type="submit" class="form__button">Wyślij</button></p>
+      <p><button type="reset" class="form__button form__button--reset">Wyczyść</button>
+      </p>
+    </form>
+    <h2 class="form__header">Wyszukiwarka</h2>
+
+    <form action="https://google.com/search" class="form form--google" target="_blank">
+      <p class="form__paragraph--google">Google</p>
+      <input name="q" class="form__field form__field--google">
+      <p><button class="form__button form__button--google">Szukaj</button></p>
+    </form>
+  </main>
+  <footer class="footer"><a href="https://www.facebook.com/markizvip" class="footer__link"
+      target="_blank">Mieczysław Przytuła/Facebook</a>
+  </footer>
+
+</body>
+
+</html>

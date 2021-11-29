@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    background-color:white;
+    margin: 0 auto;
+}
+
+.js-body--dark {
+    background-color: gainsboro;
+
+}
+
+
+

@@ -1,0 +1,27 @@
+.navigation {
+    border-radius: 20px;
+}
+.navigation__list {
+    padding: 10px;
+    text-align: center;
+}
+.navigation__item {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.navigation__link {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.navigation__link:hover {
+    color: teal;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid teal;
+    font-style: bold;
+}

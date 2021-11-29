@@ -1,0 +1,18 @@
+.header__title {
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    font-family: 'Architects Daughter';
+}
+
+.header__backgroundButton {
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+}
