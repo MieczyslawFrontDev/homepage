@@ -1,51 +1,41 @@
 {
-    // Modify background color of body with ternary operator and change background color of button with conditional statements.
+    // Modify background color of body with ternary operator.
 
-    const backgroundButton = document.querySelector(".js-header__backgroundButton");
 
-    const onChangeBackgroundClick = () => {
+
+    const changeBodyBackground = () => {
         const body = document.querySelector(".js-body");
         const themeName = document.querySelector(".js-header__themeName");
 
-        body.classList.toggle("js-body--dark");
-        themeName.innerText = body.classList.contains("js-body--dark") ? "jasne" : "ciemne";
-
-
-        if (body.classList.contains("js-body--dark")) {
-            backgroundButton.classList.remove("js-body--dark");
-        } else {
-            backgroundButton.classList.add("js-body--dark");
-        }
+        body.classList.toggle("body--dark");
+        themeName.innerText = body.classList.contains("body--dark") ? "jasne" : "ciemne";
     };
 
-    const backgroundButtonInit = () => {
-        backgroundButton.addEventListener("click", (onChangeBackgroundClick));
+    const bodyBackgroundInit = () => {
+        const headerButton = document.querySelector(".js-header__button");
+        headerButton.addEventListener("click", (changeBodyBackground));
     };
 
-    backgroundButtonInit();
+    bodyBackgroundInit();
 
     // hide and show image on click event with instruction if/else
 
-    const deletePhotoButton = document.querySelector(".js-section__deletePhotoButton");
+    const hidePhotoButton = document.querySelector(".js-section__hidePhotoButton");
 
     const onChangeVisiblePhoto = () => {
         const myPhoto = document.querySelector(".js-section__myPhoto");
 
-        if (myPhoto.classList.contains("visible")) {
-             myPhoto.classList.remove("visible");
-            deletePhotoButton.innerText = "Ukryj zdjęcie";
-        }
-        else {
-            myPhoto.classList.add("visible");
-            deletePhotoButton.innerText = "Pokaż zdjęcie";
-        }
+        myPhoto.classList.toggle("visible");
+
+        hidePhotoButton.innerText = myPhoto.classList.contains("visible") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
+
+    }
+
+    const hidePhotoButtonInit = () => {
+        hidePhotoButton.addEventListener("click", (onChangeVisiblePhoto));
     };
 
-    const deletePhotoButtonInit = () => {
-        deletePhotoButton.addEventListener("click", (onChangeVisiblePhoto));
-    };
-
-    deletePhotoButtonInit();
+    hidePhotoButtonInit();
 
     // Handling the form on submit
 
