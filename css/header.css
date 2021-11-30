@@ -9,10 +9,11 @@
     font-family: 'Architects Daughter';
 }
 
-.header__backgroundButton {
+.header__button {
     padding: 10px 40px;
     border-radius: 20px;
     text-transform: uppercase;
     margin: 0 auto;
     display: block;
+    background-color: white;
 }
