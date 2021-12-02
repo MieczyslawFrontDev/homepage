@@ -5,34 +5,34 @@
 
     const changeBodyBackground = () => {
         const body = document.querySelector(".js-body");
-        const themeName = document.querySelector(".js-header__themeName");
+        const themeName = document.querySelector(".js-changeBackgroundButton__themeName");
 
         body.classList.toggle("body--dark");
         themeName.innerText = body.classList.contains("body--dark") ? "jasne" : "ciemne";
     };
 
     const bodyBackgroundInit = () => {
-        const headerButton = document.querySelector(".js-header__button");
-        headerButton.addEventListener("click", (changeBodyBackground));
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", (changeBodyBackground));
     };
 
     bodyBackgroundInit();
 
     // hide and show image on click event with instruction if/else
 
-    const hidePhotoButton = document.querySelector(".js-section__hidePhotoButton");
+    const hideMyPhotoButton = document.querySelector(".js-hide");
 
     const onChangeVisiblePhoto = () => {
-        const myPhoto = document.querySelector(".js-section__myPhoto");
+        const myPhoto = document.querySelector(".js-myPhoto");
 
-        myPhoto.classList.toggle("visible");
+        myPhoto.classList.toggle("js-visible");
 
-        hidePhotoButton.innerText = myPhoto.classList.contains("visible") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
+        hideMyPhotoButton.innerText = myPhoto.classList.contains("js-visible") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
 
     }
 
     const hidePhotoButtonInit = () => {
-        hidePhotoButton.addEventListener("click", (onChangeVisiblePhoto));
+        hideMyPhotoButton.addEventListener("click", (onChangeVisiblePhoto));
     };
 
     hidePhotoButtonInit();

@@ -1,19 +1,35 @@
+
+.header--element {
+    background-image: url("../img/binary-gd5e351440_1920.jpg");
+    height: 800px;
+    background-position: center;
+}
+
 .header__title {
     color: white;
+    font-size: 40px;
     padding: 20px;
-    border-radius: 20px;
-    background-color: teal;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     text-align: center;
     letter-spacing: 5px;
     margin-bottom: 50px;
     font-family: 'Architects Daughter';
 }
 
+.header__title--myName {
+
+        color: white;
+        text-align: center;
+}
+
 .header__button {
-    padding: 10px 40px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    margin: 0 auto;
     display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-style: italic;
+    border: 2px solid teal;
+    border-radius: 20px;
+    color: teal;
     background-color: white;
 }

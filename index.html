@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,31 +27,27 @@
 </head>
 
 <body class="body js-body">
-  <header class="header">
+  <header class="header header--element">
     <h1 class="header__title">HELLO WORLD !</h1>
-    <button class="header__button js-header__button">Włącz <span
-        class="header__themeName js-header__themeName">ciemne</span> tło</button>
+    
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__link" href="#about-me">O MNIE</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#table">TABELA</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#contact">KONTAKT</a></li>
+      </ul>
+    </nav>
+    <h2 class="header__title--myName">Mieczysław Przytuła</h2>
+    <section class="section">
+      <div class="section__imageBox">
+        <img class="section__myPhoto js-myPhoto" src="/img/moje zdjecie.jpg" alt="Moje zdjecie">
+      </div>
+    </section>
+    <button class="header__button header__button--special js-hide">Ukryj
+      zdjęcie</button>
   </header>
 
-  <nav class="navigation">
-    <ul class="navigation__list">
-      <li class="navigation__item"><a class="navigation__link" href="#about-me">O MNIE</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#table">TABELA</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#contact">KONTAKT</a></li>
-    </ul>
-  </nav>
-
   <main>
-    <section class="section">
-      <h2 class="section__title">Mieczysław Przytuła</h2>
-      <p>
-        <img class="section__myPhoto js-section__myPhoto"
-          src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/255437725_430400288500440_1882678821854535301_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=D4fL2asmFI0AX_aUcaB&_nc_ht=scontent-waw1-1.xx&oh=e1f6a7e6b40e65cdc50a314bd405cabc&oe=61B19B69"
-          alt="Moje zdjecie">
-      </p>
-      <button class="section__hidePhotoButton js-section__hidePhotoButton">Ukryj
-        zdjęcie</button>
-    </section>
     <article class="article">
       <h2 class="article__title" id="about-me">O mnie :)</h2>
 
@@ -84,50 +81,50 @@
 
 
     </article>
-      <div class="table__container">
-        <table class="table" id="table">
+    <div class="table__container">
+      <table class="table" id="table">
 
-          <caption class="table__caption">Moje kluby</caption>
+        <caption class="table__caption">Moje kluby</caption>
 
-          <tr>
-            <th class="table__cell table__cell--header scope="col">Klub</th>
-            <th class="table__cell table__cell--header scope="col">Liga</th>
-            <th class="table__cell table__cell--header scope="col">Sukcesy</th>
-            <th class="table__cell table__cell--header scope="col">Lata</th>
+        <tr>
+          <th class="table__cell table__cell--header scope=" col">Klub</th>
+          <th class="table__cell table__cell--header scope=" col">Liga</th>
+          <th class="table__cell table__cell--header scope=" col">Sukcesy</th>
+          <th class="table__cell table__cell--header scope=" col">Lata</th>
 
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header scope="row" rowspan="2">MKS
-              Oława</th>
-            <td class="table__cell">Liga Dolnośląska Juniorów</td>
-            <td class="table__cell">Wicemistrzostwo LDJ</td>
-            <td class="table__cell">2004-2009</td>
-          </tr>
-          <tr>
-            <td class="table__cell">IV Liga</td>
-            <td class="table__cell">Brak</td>
-            <td class="table__cell">2009-2010</td>
+        </tr>
+        <tr>
+          <th class="table__cell table__cell--header scope=" row" rowspan="2">MKS
+            Oława</th>
+          <td class="table__cell">Liga Dolnośląska Juniorów</td>
+          <td class="table__cell">Wicemistrzostwo LDJ</td>
+          <td class="table__cell">2004-2009</td>
+        </tr>
+        <tr>
+          <td class="table__cell">IV Liga</td>
+          <td class="table__cell">Brak</td>
+          <td class="table__cell">2009-2010</td>
 
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header scope="row" rowspan="2">
-              Foto-Higiena Gać</th>
-            <td class="table__cell" rowspan="2">III Liga</td>
-            <td class="table__cell">Awans do IV Ligi</td>
-            <td class="table__cell" rowspan="2">2010-2018</td>
-          </tr>
-          <tr>
-            <td class="table__cell">Awans do III Ligi</td>
-          </tr>
-          <tr>
-            <th class="table__cell table__cell--header scope="row">Orzeł Marszowice
-            </th>
-            <td class="table__cell">Klasa Okręgowa</td>
-            <td class="table__cell">Awans do Klasy "O"</td>
-            <td class="table__cell">2018-</td>
-          </tr>
-        </table>
-      </div>
+        </tr>
+        <tr>
+          <th class="table__cell table__cell--header scope=" row" rowspan="2">
+            Foto-Higiena Gać</th>
+          <td class="table__cell" rowspan="2">III Liga</td>
+          <td class="table__cell">Awans do IV Ligi</td>
+          <td class="table__cell" rowspan="2">2010-2018</td>
+        </tr>
+        <tr>
+          <td class="table__cell">Awans do III Ligi</td>
+        </tr>
+        <tr>
+          <th class="table__cell table__cell--header scope=" row">Orzeł Marszowice
+          </th>
+          <td class="table__cell">Klasa Okręgowa</td>
+          <td class="table__cell">Awans do Klasy "O"</td>
+          <td class="table__cell">2018-</td>
+        </tr>
+      </table>
+    </div>
     <article class="article">
       <p class="article__paragraph">Mam swojego <strong>idola</strong>, który jest dla mnie inspiracją i wzorem do
         naśladowania.</p>
@@ -192,14 +189,16 @@
     </form>
     <h2 class="form__header">Wyszukiwarka</h2>
 
-    <form action="https://google.com/search" class="form form--google" target="_blank">
+    <form action="https://google.com/search" class="form--google" target="_blank">
       <p class="form__paragraph--google">Google</p>
       <input name="q" class="form__field form__field--google">
       <p><button class="form__button form__button--google">Szukaj</button></p>
     </form>
+    <button class="changeBackgroundButton js-changeBackgroundButton"><span
+      class="changeBackgroundButton__themeName js-changeBackgroundButton__themeName">ciemne</span> tło</button>
   </main>
-  <footer class="footer"><a href="https://www.facebook.com/markizvip" class="footer__link"
-      target="_blank">Mieczysław Przytuła/Facebook</a>
+  <footer class="footer"><a href="https://www.facebook.com/markizvip" class="footer__link" target="_blank">Mieczysław
+      Przytuła/Facebook</a>
   </footer>
 
 </body>

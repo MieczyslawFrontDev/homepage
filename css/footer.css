@@ -11,6 +11,7 @@
     text-decoration: none;
     padding: 5px;
     border-radius: 20px;
+    letter-spacing: 2px;
 }
 
 .footer__link:hover {
