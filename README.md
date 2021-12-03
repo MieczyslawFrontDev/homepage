@@ -6,7 +6,7 @@
 
 Welcome on my first website ! :) 
 
-Actually, I am taking part in the YouCode course ! Fantastic experience really ! 
+Actually, I am taking part in the YouCode course and I'm excited. Fantastic experience really ! 
 
 This site is about me so You can know me better :)
 I inclucde some information about my adventure with programming and passions too.
