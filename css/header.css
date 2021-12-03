@@ -6,15 +6,13 @@
 }
 
 .header__title {
-    color: white;
+    
     font-size: 40px;
-    padding: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     text-align: center;
     letter-spacing: 5px;
-    margin-bottom: 50px;
     font-family: 'Architects Daughter';
+    padding-top: 30px;
+    color: white;
 }
 
 .header__title--myName {
@@ -26,10 +24,6 @@
 .header__button {
     display: block;
     margin: 10px auto;
-    padding: 5px 10px;
-    font-style: italic;
-    border: 2px solid teal;
-    border-radius: 20px;
-    color: teal;
-    background-color: white;
+    border-radius: 20px
+
 }
