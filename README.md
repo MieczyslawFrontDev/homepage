@@ -1,6 +1,6 @@
 # Mieczysław Przytuła - my first homepage !
 
-![Mietek](img/my photo)
+![Mietek](homepage/img/my photo)
 
 ## Description
 
