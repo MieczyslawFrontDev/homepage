@@ -1,6 +1,6 @@
 # Mieczysław Przytuła - my first homepage !
 
-![Mietek](https://github.com/MieczyslawFrontDev/homepage/blob/main/img/my%20photo.jpg?raw=true)
+<img class="section__myPhoto js-myPhoto" src="./img/my photo.jpg" alt="Moje zdjecie" width=250px height=300px>
 
 ## Description
 
