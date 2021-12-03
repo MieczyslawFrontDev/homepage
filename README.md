@@ -1,6 +1,6 @@
 # Mieczysław Przytuła - my first homepage !
 
-![Mietek](homepage/img/my photo)
+![Mietek](homepage/img/my photo.jpg)
 
 ## Description
 
@@ -15,5 +15,15 @@ If You want get to know each other and talk about front-end send me message nece
 ## Demo
 
 https://mieczyslawfrontdev.github.io/homepage/
+
+# Technologies
+
+HTML
+CSS
+JavaScript
+Flexbox
+BEM
+ES6+ (feature) 
+
 
 
