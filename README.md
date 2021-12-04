@@ -1,12 +1,12 @@
 # Mieczysław Przytuła - my first homepage !
 
-![Mietek](https://github.com/MieczyslawFrontDev/homepage/blob/main/img/my%20photo.jpg?raw=true)
+<img class="section__myPhoto js-myPhoto" src="./img/my photo.jpg" alt="Moje zdjecie" width=250px height=300px>
 
 ## Description
 
 Welcome on my first website ! :) 
 
-Actually, I am taking part in the YouCode course and I'm excited. Fantastic experience really ! 
+Actually, I am taking part in the YouCode course and I'm very excited. Fantastic experience really ! 
 
 This site is about me so You can know me better :)
 I inclucde some information about my adventure with programming and passions too.
