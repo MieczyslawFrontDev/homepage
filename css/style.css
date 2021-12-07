@@ -4,21 +4,22 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 
-*, ::after, ::before {
+*,
+ ::after,
+ ::before {
     box-sizing: inherit;
 }
 
 .body {
     max-width: 1280px;
-    background-color:white;
+    background-color: white;
     margin: 0 auto;
 }
 
 .body--dark {
     background-color: gainsboro;
-
 }
- 
+
 .changeBackgroundButton {
     text-align: center;
     padding: 5px 10px;
@@ -26,6 +27,6 @@ html {
     text-transform: uppercase;
     margin: 50px auto;
     display: block;
-    background-color:teal;
+    background-color: teal;
     color: white;
 }

@@ -1,29 +1,35 @@
 .table__caption {
     color: teal;
 }
+
 .table__container {
     overflow-x: auto;
 }
+
 .table {
     width: 100%;
     width: 1000px;
     border-collapse: collapse;
     margin: 0 auto;
 }
+
 .table__caption {
     font-size: 25px;
     padding: 5px;
     margin: 10px;
 }
+
 .table__cell {
     border: 2px solid gray;
     padding: 10px;
     text-align: center;
 }
+
 .table__cell:hover {
     background-color: teal;
     color: white;
 }
+
 .table__cell--header {
     background-color: teal;
     color: white;

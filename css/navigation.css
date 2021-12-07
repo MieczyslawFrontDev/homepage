@@ -11,13 +11,12 @@
 
 .navigation__item {
     flex-basis: 20%;
-
 }
 
 .navigation__link {
     display: block;
     text-align: center;
-    color:white;
+    color: white;
     font-size: 20px;
     padding: 10px;
     letter-spacing: 2px;
@@ -28,7 +27,7 @@
 
 .navigation__link:hover {
     color: teal;
-    background-color:white;
+    background-color: white;
     border-radius: 20px;
     transition: 1;
 }
