@@ -6,11 +6,11 @@
 
 Welcome on my first website ! :) 
 
-Actually, I am taking part in the YouCode course and I'm very excited. Fantastic experience really ! 
+I am currently attending a course and I am very excited. Fantastic experience really ! 
 
-This site is about me so You can know me better :)
-I inclucde some information about my adventure with programming and passions too.
-If You want get to know each other and talk about front-end send me message necessarily through the form !
+This page is about me so you can get to know me better :)
+I inclucded some information about my adventure with programming and passions too.
+If You want to get to know me better and talk about the front-end, send me a message immediately via the form !
 
 ## Demo
 
