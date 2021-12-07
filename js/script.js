@@ -1,8 +1,6 @@
 {
     // Modify background color of body with ternary operator.
 
-
-
     const changeBodyBackground = () => {
         const body = document.querySelector(".js-body");
         const themeName = document.querySelector(".js-changeBackgroundButton__themeName");
@@ -11,41 +9,57 @@
         themeName.innerText = body.classList.contains("body--dark") ? "jasne" : "ciemne";
     };
 
-    const bodyBackgroundInit = () => {
+    const onClickChangeBodyBackground = () => {
         const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
         changeBackgroundButton.addEventListener("click", (changeBodyBackground));
     };
 
-    bodyBackgroundInit();
+    // Changing visibility of photo on click event with toggle
 
-    // hide and show image on click event with instruction if/else
+    const visibleButton = document.querySelector(".js-visible");
 
-    const hideMyPhotoButton = document.querySelector(".js-hide");
+    const changeVisiblePhoto = () => {
+        const myPhoto = document.querySelector(".js-myPhoto")
 
-    const onChangeVisiblePhoto = () => {
-        const myPhoto = document.querySelector(".js-myPhoto");
-
-        myPhoto.classList.toggle("js-visible");
-
-        hideMyPhotoButton.innerText = myPhoto.classList.contains("js-visible") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
+        myPhoto.classList.toggle("js-hide");
+        visibleButton.innerText = myPhoto.classList.contains("js-hide") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
 
     }
 
-    const hidePhotoButtonInit = () => {
-        hideMyPhotoButton.addEventListener("click", (onChangeVisiblePhoto));
+    const onCLickVisiblePhoto = () => {
+
+        visibleButton.addEventListener("click", (changeVisiblePhoto));
     };
 
-    hidePhotoButtonInit();
-
-    // Handling the form on submit
+    // Handling the form on submit and reset
 
     const form = document.querySelector(".js-form");
 
-    form.addEventListener("submit", () => {
-        console.log("Formularz został wysłany");
-    });
+    const onFormSubmit = () => {
 
-    form.addEventListener("reset", () => {
-        console.log("Formularz został zresetowany");
-    });
+        form.addEventListener("submit", () => {
+            console.log("Formularz został wysłany");
+        })
+    }
+
+    const onFormReset = () => {
+        form.addEventListener("reset", (e) => {
+            e.preventDefault();
+
+            console.log("Formularz został zresetowany");
+        });
+    }
+
+    // Collapse all functions in the one init function
+
+    const init = () => {
+
+        onClickChangeBodyBackground();
+        onCLickVisiblePhoto();
+        onFormSubmit();
+        onFormReset();
+    }
+
+    init();
+
 }
