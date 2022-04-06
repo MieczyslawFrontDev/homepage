@@ -38,6 +38,15 @@
     color: white;
 }
 
+.header__button--special:hover {
+    background-color: teal;
+    color: white;
+}
+
+.js-hide {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .header--element {
     height: 500px;
