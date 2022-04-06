@@ -1,6 +1,6 @@
 # Mieczysław Przytuła - my first homepage !
 
-<img class="section__myPhoto js-myPhoto" src="./img/portrait.jpg" alt="Moje zdjecie" width=250px height=300px>
+<img class="section__myPhoto js-myPhoto" src="./img/portrait.jpg" alt="Moje zdjecie">
 
 ## Description
 
