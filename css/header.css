@@ -1,7 +1,8 @@
 .header--element {
     background-image: url("../img/binary-gd5e351440_1920.jpg");
-    height: 800px;
+    height: 600px;
     background-position: center;
+    text-align: center;
 }
 
 .header__title {
@@ -18,10 +19,31 @@
     text-align: center;
 }
 
+.header__myPhoto {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/portrait.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 16px -13px 15px 1px rgba(70, 17, 17, 0.459);
+}
+
 .header__button {
     display: block;
     margin: 10px auto;
+    padding: 5px 10px;
     border-radius: 20px;
     background-color: teal;
     color: white;
+}
+
+@media (max-width: 767px) {
+    .header--element {
+    height: 500px;
+    }
+
+    .header__title {
+        font-size: 30px;
+    }
 }
