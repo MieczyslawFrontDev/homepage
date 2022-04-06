@@ -29,7 +29,8 @@
 }
 
 .form__paragraph {
-    color: red;
+    font-style: italic;
+    color: blue;
 }
 
 .form__paragraph--google {
@@ -77,14 +78,6 @@
 
 .form__button:hover {
     background-color: hsl(180, 100%, 35%);
-}
-
-.form__button--reset {
-    background-color: crimson;
-}
-
-.form__button--reset:hover {
-    background-color: hsl(348, 83%, 70%);
 }
 
 .form__button--google {
