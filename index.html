@@ -28,20 +28,15 @@
 <body class="body js-body">
     <header class="header header--element">
         <h1 class="header__title">HELLO WORLD !</h1>
-
         <nav class="navigation">
             <ul class="navigation__list">
-                <li class="navigation__item"><a class="navigation__link" href="#about-me">O MNIE</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#table">TABELA</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#contact">KONTAKT</a></li>
+                <li><a class="navigation__link" href="#about-me">O MNIE</a></li>
+                <li><a class="navigation__link" href="#table">TABELA</a></li>
+                <li><a class="navigation__link" href="#contact">KONTAKT</a></li>
             </ul>
         </nav>
         <h2 class="header__title--myName">Mieczysław Przytuła</h2>
-        <section class="section">
-            <div class="section__imageBox">
-                <img class="section__myPhoto js-myPhoto" src="./img/my photo.jpg" alt="Moje zdjecie">
-            </div>
-        </section>
+        <img class="header__myPhoto js-myPhoto">
         <button class="header__button header__button--special js-visible">Ukryj
       zdjęcie</button>
     </header>
@@ -162,7 +157,6 @@
             <textarea class="form__field form__field--description" name="description " maxlength="160"></textarea>
           </label>
                     </p>
-                    <>
                         <label>
             <span class="form__labelText">Data</span>
             <input class="form__field form__field--date" type="date">
@@ -170,7 +164,6 @@
                 </p>
             </fieldset>
             <p><button type="submit" class="form__button">Wyślij</button></p>
-            <p><button type="reset" class="form__button form__button--reset">Wyczyść</button>
             </p>
         </form>
         <h2 class="form__header ">Wyszukiwarka</h2>
