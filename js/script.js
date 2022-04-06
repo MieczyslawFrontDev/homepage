@@ -42,14 +42,6 @@
         })
     }
 
-    const onFormReset = () => {
-        form.addEventListener("reset", (e) => {
-            e.preventDefault();
-
-            console.log("Formularz został zresetowany");
-        });
-    }
-
     // Collapse all functions in the one init function
 
     const init = () => {
@@ -57,7 +49,6 @@
         onClickChangeBodyBackground();
         onCLickVisiblePhoto();
         onFormSubmit();
-        onFormReset();
     }
 
     init();
