@@ -30,3 +30,7 @@ html {
     background-color: teal;
     color: white;
 }
+
+main {
+    padding: 20px;
+}
